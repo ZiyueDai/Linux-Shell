@@ -1,0 +1,44 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2026.04.09 16:39:29 =~=~=~=~=~=~=~=~=~=~=~=
+    
+[2026-04-09 16:39:29]                      MobaXterm Professional Edition v23.2                
+[2026-04-09 16:39:29]                     (SSH client, X server and network tools)               
+[2026-04-09 16:39:29]                                                                            
+[2026-04-09 16:39:29]        SSH session to sysadmin@10.2.251.204                               
+[2026-04-09 16:39:29]          Direct SSH      :                                               
+[2026-04-09 16:39:29]          SSH compression :    (disabled or not supported by server)      
+[2026-04-09 16:39:29]          SSH-browser     :                                               
+[2026-04-09 16:39:29]          X11-forwarding  :    (remote display is forwarded through SSH)  
+[2026-04-09 16:39:29]                                                                            
+[2026-04-09 16:39:29]        For more info, ctrl+click on help or visit our website.            
+[2026-04-09 16:39:29]      
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  Welcome to Ubuntu 20.04.5 LTS (GNU/Linux 5.4.0-125-generic x86_64)
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]   * Documentation:  https://help.ubuntu.com
+[2026-04-09 16:39:29]   * Management:     https://landscape.canonical.com
+[2026-04-09 16:39:29]   * Support:        https://ubuntu.com/advantage
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]    System information as of Thu 09 Apr 2026 08:39:28 AM UTC
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]    System load:     0.0                 IPv4 address for enp1s0: 10.2.251.204
+[2026-04-09 16:39:29]    Usage of /:      29.8% of 194.58GB   IPv4 address for enp6s0: 10.243.0.7
+[2026-04-09 16:39:29]    Memory usage:    4%                  IPv4 address for enp7s0: 10.2.251.134
+[2026-04-09 16:39:29]    Swap usage:      0%                  IPv4 address for enp8s0: 10.2.251.74
+[2026-04-09 16:39:29]    Processes:       173                 IPv4 address for virbr0: 192.168.122.1
+[2026-04-09 16:39:29]    Users logged in: 0
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  0 updates can be applied immediately.
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  The list of available updates is more than a week old.
+[2026-04-09 16:39:29]  To check for new updates run: sudo apt update
+[2026-04-09 16:39:29]  Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+[2026-04-09 16:39:29]  applicable law.
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  
+[2026-04-09 16:39:29]  Last login: Thu Apr  9 08:37:15 2026 from 172.16.40.98
+[2026-04-09 16:39:29]  sysadmin@rmid6-caf-ccdadmvm:~$ rm CCD_HC_test.sh 
+[2026-04-09 16:39:33]  sysadmin@rmid6-caf-ccdadmvm:~$ 
