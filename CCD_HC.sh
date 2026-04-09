@@ -348,7 +348,7 @@ if [[  $# -eq 0 ]]; then
 else
     case "$1" in
       -c)
-        access_active_alarm
+#        access_active_alarm
         get_ccd_nodes
         get_bmh_status
         get_machine_status
@@ -357,8 +357,8 @@ else
         get_svc_status
         get_etcd_status
         get_bgp_status
-        get_kubeadm_cert_info
-        get_ceph_cluster_status
+#        get_kubeadm_cert_info
+#        get_ceph_cluster_status
         get_ntp_status
         get_license_consumer_log
         get_sys_info_handler_info
