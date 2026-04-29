@@ -87,7 +87,7 @@ remote_check_on_ctrl() {
 
     log_info "$DESC"
     print_cmd "$CMD"
-    local ssh_cmd=("ssh" "-o" "StrictHostKeyChecking=no" "root@$CCD_OM_SP" "$CMD")
+    local ssh_cmd=("ssh" "-i" "/home/sysadmin/.ssh/id_rsa" "-o" "StrictHostKeyChecking=no" "-q" "root@$CCD_OM_SP" "$CMD")
 
     if "${ssh_cmd[@]}"; then
         log_ok "$DESC completed"
@@ -96,7 +96,7 @@ remote_check_on_ctrl() {
     fi
 }
 
-# ===== remote_check_on_all_nodes function =====
+
 # ===== remote_check_on_all_nodes function =====
 remote_check_on_all_nodes() {
     local DESC="$1"
@@ -104,11 +104,10 @@ remote_check_on_all_nodes() {
 
     log_info "$DESC on all CCD nodes"
 
-    # 将需要的函数定义导出为变量
     local log_functions=$(declare -f log_info log_ok log_warn log_error print_cmd)
     local color_vars=$(declare -p RED GREEN YELLOW BLUE PURPLE RESET BOLD 2>/dev/null || true)
 
-    ssh -o StrictHostKeyChecking=no "root@$CCD_OM_SP" bash -s <<EOF
+    ssh -i /home/sysadmin/.ssh/id_rsa -o StrictHostKeyChecking=no -q "root@$CCD_OM_SP" '/bin/bash -s' <<'EOF'
 $color_vars
 $log_functions
 
